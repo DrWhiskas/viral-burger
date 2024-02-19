@@ -1,6 +1,6 @@
 .header{
     width: 100dvw;
-    height: 15svh;
+    height: 10svh;
     background-color: white;
     position: fixed;
     display: flex;
@@ -11,8 +11,8 @@
     display: flex;
     position: relative;
     place-self: center;
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
 }
 .logo{
     position: relative;

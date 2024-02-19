@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Menu from './pages/Menu';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +13,7 @@ root.render(
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/home" element={<Home />} />
+				<Route path='/menu' element={<Menu />} />
 			</Routes>
 		</HashRouter>
 	</React.StrictMode>
