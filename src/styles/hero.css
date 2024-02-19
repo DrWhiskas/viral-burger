@@ -39,7 +39,9 @@
     font-weight: bold;
     font-size: 15px;
     transition: all ease-in-out .2s;
-  
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn:hover{
     cursor: pointer;

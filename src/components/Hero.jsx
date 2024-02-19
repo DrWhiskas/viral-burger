@@ -14,8 +14,8 @@ export default function Hero(){
 								<br />
 								BURGERS!
 							</span>
-							<Link to="/menu">
-								<button className="btn">Commander en ligne</button>
+							<Link className='btn'to="/menu">
+								Commander en ligne
 							</Link>
 						</div>
 					</div>

@@ -29,7 +29,7 @@
 }
 .header__links__link{
     color: black;
-    font-size: calc(12px + .7dvw);
+    font-size: calc(12px + .6dvw);
 }
 .header__links__link:hover{
     color: #DD2803;
