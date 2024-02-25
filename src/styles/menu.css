@@ -1,0 +1,15 @@
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    gap: 3%;
+}
+.menu__title{
+    position: relative;
+    margin-top: 10%;
+    text-align-last: center;
+    margin-bottom: 5%;
+}

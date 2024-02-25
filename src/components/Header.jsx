@@ -21,7 +21,7 @@ export default function Header(){
 
 				<ul className="header__links">
 					<CreateLinks link="/home" text="Accueil" />
-					<CreateLinks link="" text="Menu" />
+					<CreateLinks link="/menu" text="Menu" />
 					<CreateLinks link="" text="Contact" />
 				</ul>
 				<button className="header__burger" onClick={handleShowLinks}>
