@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/viral-burger/static/css/main.229794d6.css",
-    "main.js": "/viral-burger/static/js/main.2f29ac74.js",
+    "main.js": "/viral-burger/static/js/main.fc32b844.js",
     "static/media/Mburger.png": "/viral-burger/static/media/Mburger.e51fb6d2b58af5830532.png",
     "static/media/logo.png": "/viral-burger/static/media/logo.f913c9b8c6dc9380b42f.png",
     "index.html": "/viral-burger/index.html",
     "main.229794d6.css.map": "/viral-burger/static/css/main.229794d6.css.map",
-    "main.2f29ac74.js.map": "/viral-burger/static/js/main.2f29ac74.js.map"
+    "main.fc32b844.js.map": "/viral-burger/static/js/main.fc32b844.js.map"
   },
   "entrypoints": [
     "static/css/main.229794d6.css",
-    "static/js/main.2f29ac74.js"
+    "static/js/main.fc32b844.js"
   ]
 }
