@@ -21,7 +21,6 @@ export default function Menu() {
 		const updatedCart = [...cart];
 		updatedCart.splice(index, 1);
 		setCart(updatedCart);
-
 		const updatedTotalPrice = totalPrice - cart[index].price;
 		setTotalPrice(updatedTotalPrice);
 	}
