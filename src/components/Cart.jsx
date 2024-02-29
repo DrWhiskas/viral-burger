@@ -5,7 +5,7 @@ import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 import '../styles/cart.css'
 export default function Cart({cart, removeArticle, totalPrice, showCart}){
-    const [isOpenCart, setIsOpenCart] = useState(false)
+    const [isOpenCart, setIsOpenCart] = useState(true)
 
     function handleShowCart(){
         setIsOpenCart(!isOpenCart)
@@ -18,6 +18,9 @@ export default function Cart({cart, removeArticle, totalPrice, showCart}){
             return <FaChevronDown className="arrow" />;
         }
     }
+	function handleCommmand(){
+
+	}
 
     return (
 			<div className={isOpenCart ? 'cart' : 'cart-close'}>
@@ -50,6 +53,7 @@ export default function Cart({cart, removeArticle, totalPrice, showCart}){
 				<div className="cart__total">
 					Total: <span className="cart__price">{totalPrice}€</span>
 				</div>
+				<button className="cart__btn-command" onClick={handleCommmand}>Commander</button>
 			</div>
 		);
 }
