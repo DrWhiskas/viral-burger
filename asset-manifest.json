@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/viral-burger/static/css/main.e73d12da.css",
-    "main.js": "/viral-burger/static/js/main.0a228440.js",
+    "main.css": "/viral-burger/static/css/main.a0eebdee.css",
+    "main.js": "/viral-burger/static/js/main.cbdf4b59.js",
     "static/media/Mburger.png": "/viral-burger/static/media/Mburger.e51fb6d2b58af5830532.png",
     "static/media/logo.png": "/viral-burger/static/media/logo.f913c9b8c6dc9380b42f.png",
     "index.html": "/viral-burger/index.html",
-    "main.e73d12da.css.map": "/viral-burger/static/css/main.e73d12da.css.map",
-    "main.0a228440.js.map": "/viral-burger/static/js/main.0a228440.js.map"
+    "main.a0eebdee.css.map": "/viral-burger/static/css/main.a0eebdee.css.map",
+    "main.cbdf4b59.js.map": "/viral-burger/static/js/main.cbdf4b59.js.map"
   },
   "entrypoints": [
-    "static/css/main.e73d12da.css",
-    "static/js/main.0a228440.js"
+    "static/css/main.a0eebdee.css",
+    "static/js/main.cbdf4b59.js"
   ]
 }
