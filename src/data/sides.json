@@ -1,93 +1,31 @@
 [
 	{
 		"id": 1,
-		"title": "⚽ Le burger il a changé ⚽",
-		"description": "Ça tue l'adversaire",
-		"image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
-		"burger": {
-			"name": "Mburger",
-			"ingredients": [
-				"Steak de boeuf",
-				"Bacon",
-				"Chedar",
-				"Salade",
-				"Tomate",
-				"Sauce du chef"
-			],
-			"price": "6.00",
-			"image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg"
-		},
-		"frite": "frites classiques",
-		"boisson": [""],
-		"price": "11.00"
+		"title": "Frites classiques",
+		"description": "Qu'est-ce qui est jaune et qui attend ?",
+		"image": "https://media.istockphoto.com/id/155445479/fr/photo/frites-dans-un-c%C3%B4ne-de-papier.jpg?s=612x612&w=0&k=20&c=Y1dUf39FFSdcsr2WNce0vvVM_iUhU5CrotRqayg53r4=",
+		"price": "2.00"
 	},
 	{
 		"id": 2,
-		"title": "🦁 Le Général 🦁",
-		"description": "Qui fait fuir les marseillais",
-		"image": "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg",
-		"burger": {
-			"name": "Général Burger",
-			"ingredients": [
-				"Steak de boeuf",
-				"Bacon",
-				"Chedar",
-				"Salade",
-				"Tomate",
-				"Oignon",
-				"Sauce du chef"
-			],
-			"price": "7.00",
-			"image": "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg"
-		},
-		"frite": "frites classiques",
-		"boisson": [""],
-		"price": "12.00"
+		"title": "Frites torsadés",
+		"description": "Elles n'ont pas tournées dans une cave promis",
+		"image": "https://media.istockphoto.com/id/456027397/fr/photo/assaisonn%C3%A9es-frite-ronde.jpg?s=612x612&w=0&k=20&c=1XUgmfsqFVwBLbTC6UwcIxAp4dYry8GIDsqea3pB928=",
+		"price": "3.00"
 	},
 	{
 		"id": 3,
-		"title": "😴 Bonne Nuit 😴",
-		"description": "2 burgers VRAIMENT épineux",
-		"image": "https://www.recipetineats.com/wp-content/uploads/2023/09/Crispy-fried-chicken-burgers_5.jpg?resize=650,813",
-		"burger": {
-			"name": "Sympa la force",
-			"ingredients": [
-				"Filet de poulet",
-				"Salade",
-				"Cornichon",
-				"Sauce du chef"
-			],
-			"price": "5.00",
-			"image": "https://www.recipetineats.com/wp-content/uploads/2023/09/Crispy-fried-chicken-burgers_5.jpg?resize=650,813"
-		},
-		"frite": "frites classiques",
-		"boisson": [""],
-		"price": "19.0"
+		"title": "Oignons rings",
+		"description": "Y'en a qui ont la bague au doigt, moi j'ai les oignons rings",
+		"image": "https://media.istockphoto.com/id/865789218/fr/photo/beignets-doignons-sauce-ketchup.jpg?s=612x612&w=0&k=20&c=fevTDSkWsxrCuOs8ojJ5VEhway1xkiOjKJricabpvo4=",
+		"price": "3.00"
 	},
 	{
 		"id": 4,
-		"title": "😈 Malveillance Max 😈",
-		"description": "Un antagoniste est né",
-		"image": "https://images.pexels.com/photos/3742373/pexels-photo-3742373.jpeg",
-		"burger": {
-			"name": "Burger Malveillant",
-			"ingredients": [
-				"Steak de boeuf",
-				"Chedar",
-				"Salade",
-				"Tomate",
-				"Oignon frit",
-				"Sauce du chef épicé (rang 9)"
-			],
-			"price": "8.00",
-			"image": "https://images.pexels.com/photos/3742373/pexels-photo-3742373.jpeg"
-		},
-		"frite": "frites classiques",
-		"boisson": [""],
-		"dessert": {
-			"name": ["Donut sucré au sucre"]
-		},
-		"price": "15.00"
+		"title": "Mozzarella sticks",
+		"description": "En panne d'inspiration",
+		"image": "https://media.istockphoto.com/id/667107068/fr/photo/b%C3%A2tonnets-de-mozzarella-pan%C3%A9s.jpg?s=612x612&w=0&k=20&c=mqzMTEku9Px-ZnB80Qe9fphWhGIYp5rFZ6XqgdlUUZQ=",
+		"price": "3.00"
 	},
 	{
 		"id": 5,

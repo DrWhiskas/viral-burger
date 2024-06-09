@@ -1,35 +1,54 @@
-.menuForm{
-    background-color: white;
-    width: 350px;
-    height: 350px;
-    overflow: hidden;
-    padding: 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.menuForm {
+	background-color: white;
+	width: 380px;
+	height: 420px;
+	overflow: hidden;
+	padding: 1%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 2%;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.menuForm__image {
+	object-fit: cover;
+	width: 100%;
+	height: 65%;
+}
+.menuForm__info{
     margin-bottom: 2%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.menuForm__image{
-    object-fit: cover;
+.menuForm__info__title {
+	margin-bottom: 1%;
+	font-size: 16px;
+}
+.menuForm__info__description {
+	font-size: 12px;
+	margin-bottom: 2%;
+	font-style: italic;
+}
+.menuForm__info__price{
+    margin-bottom: 10%;
+}
+.menuForm__info__list{
+    display: flex;
     width: 100%;
+    flex-wrap: wrap;
+    font-size: 14px;
 }
-.menuForm__info__title{
-    margin-bottom: 5%;
-    font-size: 15px;
+.menuForm__btn {
+	position: relative;
+	height: 50px;
+	width: 100%;
+	bottom: 0;
+	background-color: #dd2803;
+	border: none;
+	color: white;
+	font-weight: bold;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
-.menuForm__btn{
-    position: relative;
-    height: 15%;
-    width: 100%;
-    bottom: 0;
-    background-color: #DD2803;
-    border: none;
-    color: white;
-    font-weight: bold;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-}
-.menuForm__btn:hover{
-    cursor: pointer;
-    background-color: #ad1f03;
+.menuForm__btn:hover {
+	cursor: pointer;
+	background-color: #ad1f03;
 }

@@ -86,9 +86,9 @@
     .header__burger:hover{
         cursor: pointer;
     }
-    button,
-    button::before,
-    button::after {
+    .burger-bar,
+    .burger-bar::before,
+    .burger-bar::after {
         display: block;
         width: 27px;
         height: 3px;
@@ -97,25 +97,25 @@
         background: #DD2803;
         transition: all .3s ease-in-out;
     }
-    button::before,
-    button::after{
+    .burger-bar::before,
+    .burger-bar::after{
         content: "";
         position: absolute;
         left: 0;
     }
-    button::before{
+    .burger-bar::before{
         transform: translateY(-12px);
     }
-    button::after{
+    .burger-bar::after{
         transform: translateY(12px);
     }
-    .show-header button::before{
+    .show-header .burger-bar::before{
         transform: rotate(45deg);
     }
-    .show-header button::after{
+    .show-header .burger-bar::after{
         transform: rotate(-45deg);
     }
-    .show-header button{
+    .show-header .burger-bar{
         width: 0;
         background: transparent;
     }
