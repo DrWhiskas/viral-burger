@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import burgers from '../data/burger.json';
 import sides from '../data/sides.json';
 import drinks from '../data/drinks.json';
+import sauces from '../data/sauces.json'
 import MenuForm from '../components/MenuForm';
 import Cart from '../components/Cart';
 import Modal from '../components/Modal';
@@ -91,11 +92,42 @@ export default function Menu() {
 					/>
 				))}
 			</div>
+			<h1 className="menu__title title">Nos Accompagnements</h1>
 			<div className="menu">
-				{sides.map((side, key) =>(
-					<>
-						{side.title}
-					</>
+				{sides.map((side, key) => (
+					<MenuForm
+						key={side.id}
+						menuTitle={side.title}
+						menuImage={side.image}
+						menuDescription={side.description}
+						menuPrice={side.price}
+						addArticle={() => addToCart(side.title, side.price)}
+					/>
+				))}
+			</div>
+			<h1 className="menu__title title">Nos Boissons</h1>
+			<div className="menu">
+				{drinks.map((drink, key) => (
+					<MenuForm
+						key={drink.id}
+						menuTitle={drink.title}
+						menuImage={drink.image}
+						menuPrice={drink.price}
+						addArticle={() => addToCart(drink.title, drink.price)}
+					/>
+				))}
+			</div>
+			<h1 className="menu__title title">Nos Sauce</h1>
+			<div className="menu">
+				{sauces.map((sauce, key) => (
+					<MenuForm
+						key={sauce.id}
+						menuTitle={sauce.title}
+						menuImage={sauce.image}
+						menuDescription={sauce.description}
+						menuPrice={sauce.price}
+						addArticle={() => addToCart(sauce.title, sauce.price)}
+					/>
 				))}
 			</div>
 

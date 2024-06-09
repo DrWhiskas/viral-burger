@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"title": "Ketchup",
+        "description": "Sauce sous coté",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQllKPSNLvMNBbDVYA8i6XPDXqc4TT0Ap7WjZhACl9-_0M9Py1MWf6nZxqer9acGwQmT3I",
+		"price": "0.50"
+	},
+	{
+		"id": 2,
+		"title": "Mayonaise",
+		"description": "Un classique",
+		"image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2023/05/Mayonnaise-Recipe-11.jpg",
+		"price": "0.50"
+	},
+	{
+		"id": 3,
+		"title": "Biggy burger",
+		"description": "Meilleure sauce je ne veux rien savoir",
+		"image": "https://resto-lamiral.fr/wp-content/uploads/2018/04/Sauce-biggy-burger.jpeg",
+		"price": "0.50"
+	},
+	{
+		"id": 4,
+		"title": "Sauce du chef",
+		"description": "Ne pose pas de question, tu n'auras pas de réponse",
+		"image": "https://i.ytimg.com/vi/IP3d0C8qreE/hqdefault.jpg",
+		"price": "0.50"
+	}
+]

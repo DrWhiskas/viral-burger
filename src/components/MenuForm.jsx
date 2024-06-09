@@ -8,7 +8,8 @@ export default function MenuForm({menuTitle, menuDescription, menuImage, menuRec
 				<div className="menuForm__info">
 					<h2 className="menuForm__info__title">{menuTitle}</h2>
 					<p className="menuForm__info__description">{menuDescription}</p>
-					<ul className="menuForm__info__list">
+					{menuRecipe ? (
+						<ul className="menuForm__info__list">
 						{menuRecipe.map((item, key) => (
 							<li className="menuForm__info__list__item">
 								{item}
@@ -16,6 +17,10 @@ export default function MenuForm({menuTitle, menuDescription, menuImage, menuRec
 							</li>
 						))}
 					</ul>
+					) : (
+						<>
+						</>
+					)}
 					<span className="menuForm__info__price">{menuPrice}€</span>
 				</div>
 				<button className="menuForm__btn" onClick={addArticle}>
