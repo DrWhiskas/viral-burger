@@ -3,6 +3,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { addOrder } from '../features/store';
 import Header from '../components/Header';
 import burgers from '../data/burger.json';
+import sides from '../data/sides.json';
+import drinks from '../data/drinks.json';
 import MenuForm from '../components/MenuForm';
 import Cart from '../components/Cart';
 import Modal from '../components/Modal';
@@ -87,6 +89,13 @@ export default function Menu() {
 							addToCart(burger.burger.name, burger.burger.price)
 						}
 					/>
+				))}
+			</div>
+			<div className="menu">
+				{sides.map((side, key) =>(
+					<>
+						{side.title}
+					</>
 				))}
 			</div>
 
